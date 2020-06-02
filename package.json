@@ -1,0 +1,29 @@
+{
+  "name": "task-context-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jailang/task-context-example.git"
+  },
+  "author": "Lyn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jailang/task-context-example/issues"
+  },
+  "homepage": "https://github.com/jailang/task-context-example#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "knex": "^0.21.1",
+    "sqlite3": "^4.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
