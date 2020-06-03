@@ -5,8 +5,8 @@ const server = express();
 server.use(express.json());
 server.use(cors());
 
-const tasks = require("./contexts/router");
-server.use("/api/tasks", tasks);
+const tasks = require("./tasks/router");
+server.use("/api/task", tasks);
 
 server.get("/", (req, res) => {
   res.status(200).json({ api: "up" });
